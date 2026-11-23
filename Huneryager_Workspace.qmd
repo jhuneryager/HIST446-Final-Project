@@ -299,7 +299,7 @@ validation_issues %>% select(date, link, headlines_listed)
 
 Open each link, go through the issue page by page, and count its stories. Fill in the last three columns of `data/huneryager/headline-validation.csv` and save it. Is any kind of story left out more than others in the DMR's description of each issue?
 
-> 
+> The ones that are in smaller font tyoes.
 
 ## 5. Which regions make the headlines?
 
@@ -529,7 +529,7 @@ entities %>%
 
 Find two mistakes the model made (a place tagged as a person, an OCR error tagged as a name). Then look past Muncie and Indiana: which foreign places lead each window? Do they match the turning point, or something you didn't expect?
 
->
+> Aids marked as MISC and AP as LOC. 1=None, 2=Israel, 3= Israeli, 4= Iran, 5= Iranian, 6= Soviet, 7= Iraq, 8= Iraqi, 9= German. I do think they match the turning point.
 
 Now put the names into your regions, using the same patterns. Because the windows have different numbers of pages, count **names per 100 front pages**.
 
@@ -791,7 +791,7 @@ Which departments teach about the world? Read these: are the language courses (C
 ```{r}
 #| label: region-departments
 
-skip_departments <- c()   # for example c("CH", "JAPAN") to leave out language courses
+skip_departments <- c("FL", "FR", "GER", "SP","RUS","LAT", "JAPAN" )   # for example c("CH", "JAPAN") to leave out language courses
 
 course_regions %>%
   filter(in_title, !(department %in% skip_departments)) %>%
@@ -827,6 +827,7 @@ course_share %>%
 ## Your turn
 
 Change `in_title` to `in_description` in the chunk above and run it again. Which regions are *mentioned* in descriptions far more often than they get a course of their own? That's the difference between being mentioned and being taught.
+> Africa is mentioned more in the description than the title. The difference between being mentioned and being taught is the difference between having a whole course on a topic and having one day of a course on a topic.
 :::
 
 # Part C: Did the curriculum follow the news?
@@ -889,14 +890,14 @@ headline_regions %>%
 
 Before you use this data in your project, check:
 
-- [ ] **Headlines.** Every year from 1970 to 1999 has regular issues (Section 3).
-- [ ] **Validation.** You've checked three issues against their headline lists and filled in `headline-validation.csv` (Section 4).
-- [ ] **Regions.** You've read the headlines and courses tagged with each region and changed the patterns where they were wrong (Sections 5 and 11).
-- [ ] **Front pages.** Each window has front pages, and you've read a few to check the wire and byline flags (Section 6).
-- [ ] **Names.** You've found the model's mistakes and know how often they happen (Section 7).
-- [ ] **Text.** Every catalog has text on (almost) every page (Section 9).
-- [ ] **Courses.** For at least two catalogs, one department's courses match your hand count (Section 10).
-- [ ] **Commit.** This `.qmd` file, the CSV files directly in `data/huneryager/`, and everything in `output/huneryager/` are committed. `data/huneryager/catalogs/` and `data/huneryager/dailynews/` are not.
+- [x] **Headlines.** Every year from 1970 to 1999 has regular issues (Section 3).
+- [x] **Validation.** You've checked three issues against their headline lists and filled in `headline-validation.csv` (Section 4).
+- [x] **Regions.** You've read the headlines and courses tagged with each region and changed the patterns where they were wrong (Sections 5 and 11).
+- [x] **Front pages.** Each window has front pages, and you've read a few to check the wire and byline flags (Section 6).
+- [x] **Names.** You've found the model's mistakes and know how often they happen (Section 7).
+- [x] **Text.** Every catalog has text on (almost) every page (Section 9).
+- [x] **Courses.** For at least two catalogs, one department's courses match your hand count (Section 10).
+- [x] **Commit.** This `.qmd` file, the CSV files directly in `data/huneryager/`, and everything in `output/huneryager/` are committed. `data/huneryager/catalogs/` and `data/huneryager/dailynews/` are not.
 
 ## Thinking like a historian about this pipeline
 

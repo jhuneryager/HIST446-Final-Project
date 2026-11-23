@@ -1,0 +1,136 @@
+catalog_year,region,n,all_courses,percent
+1970,Africa,2,1368,0.15
+1970,East Asia,6,1368,0.44
+1970,International & global,24,1368,1.75
+1970,Latin America,10,1368,0.73
+1970,Middle East & N. Africa,2,1368,0.15
+1970,Oceania,2,1368,0.15
+1970,South & Southeast Asia,2,1368,0.15
+1970,Soviet Union & E. Europe,7,1368,0.51
+1970,Western Europe,12,1368,0.88
+1972,Africa,3,1611,0.19
+1972,East Asia,5,1611,0.31
+1972,International & global,31,1611,1.92
+1972,Latin America,11,1611,0.68
+1972,Middle East & N. Africa,2,1611,0.12
+1972,Oceania,2,1611,0.12
+1972,South & Southeast Asia,2,1611,0.12
+1972,Soviet Union & E. Europe,7,1611,0.43
+1972,Western Europe,17,1611,1.06
+1974,Africa,4,1774,0.23
+1974,East Asia,14,1774,0.79
+1974,International & global,36,1774,2.03
+1974,Latin America,12,1774,0.68
+1974,Middle East & N. Africa,3,1774,0.17
+1974,Oceania,2,1774,0.11
+1974,South & Southeast Asia,6,1774,0.34
+1974,Soviet Union & E. Europe,7,1774,0.39
+1974,Western Europe,15,1774,0.85
+1976,Africa,2,2027,0.1
+1976,East Asia,15,2027,0.74
+1976,International & global,40,2027,1.97
+1976,Latin America,15,2027,0.74
+1976,Middle East & N. Africa,4,2027,0.2
+1976,Oceania,2,2027,0.1
+1976,South & Southeast Asia,7,2027,0.35
+1976,Soviet Union & E. Europe,6,2027,0.3
+1976,Western Europe,14,2027,0.69
+1978,Africa,2,2445,0.08
+1978,East Asia,11,2445,0.45
+1978,International & global,39,2445,1.6
+1978,Latin America,14,2445,0.57
+1978,Middle East & N. Africa,4,2445,0.16
+1978,Oceania,2,2445,0.08
+1978,South & Southeast Asia,5,2445,0.2
+1978,Soviet Union & E. Europe,7,2445,0.29
+1978,Western Europe,14,2445,0.57
+1980,Africa,2,2593,0.08
+1980,East Asia,11,2593,0.42
+1980,International & global,42,2593,1.62
+1980,Latin America,11,2593,0.42
+1980,Middle East & N. Africa,4,2593,0.15
+1980,Oceania,2,2593,0.08
+1980,South & Southeast Asia,5,2593,0.19
+1980,Soviet Union & E. Europe,7,2593,0.27
+1980,Western Europe,14,2593,0.54
+1982,Africa,5,2599,0.19
+1982,East Asia,8,2599,0.31
+1982,International & global,36,2599,1.39
+1982,Latin America,10,2599,0.38
+1982,Middle East & N. Africa,4,2599,0.15
+1982,Oceania,2,2599,0.08
+1982,South & Southeast Asia,4,2599,0.15
+1982,Soviet Union & E. Europe,6,2599,0.23
+1982,Western Europe,13,2599,0.5
+1984,Africa,4,2735,0.15
+1984,East Asia,8,2735,0.29
+1984,International & global,43,2735,1.57
+1984,Latin America,11,2735,0.4
+1984,Middle East & N. Africa,4,2735,0.15
+1984,Oceania,0,2735,0
+1984,South & Southeast Asia,4,2735,0.15
+1984,Soviet Union & E. Europe,6,2735,0.22
+1984,Western Europe,12,2735,0.44
+1986,Africa,4,2581,0.15
+1986,East Asia,13,2581,0.5
+1986,International & global,47,2581,1.82
+1986,Latin America,9,2581,0.35
+1986,Middle East & N. Africa,4,2581,0.15
+1986,Oceania,0,2581,0
+1986,South & Southeast Asia,4,2581,0.15
+1986,Soviet Union & E. Europe,6,2581,0.23
+1986,Western Europe,14,2581,0.54
+1988,Africa,3,2024,0.15
+1988,East Asia,11,2024,0.54
+1988,International & global,43,2024,2.12
+1988,Latin America,5,2024,0.25
+1988,Middle East & N. Africa,2,2024,0.1
+1988,Oceania,0,2024,0
+1988,South & Southeast Asia,2,2024,0.1
+1988,Soviet Union & E. Europe,5,2024,0.25
+1988,Western Europe,10,2024,0.49
+1990,Africa,3,2220,0.14
+1990,East Asia,11,2220,0.5
+1990,International & global,45,2220,2.03
+1990,Latin America,5,2220,0.23
+1990,Middle East & N. Africa,2,2220,0.09
+1990,Oceania,0,2220,0
+1990,South & Southeast Asia,2,2220,0.09
+1990,Soviet Union & E. Europe,5,2220,0.23
+1990,Western Europe,13,2220,0.59
+1992,Africa,3,2297,0.13
+1992,East Asia,14,2297,0.61
+1992,International & global,50,2297,2.18
+1992,Latin America,6,2297,0.26
+1992,Middle East & N. Africa,3,2297,0.13
+1992,Oceania,0,2297,0
+1992,South & Southeast Asia,4,2297,0.17
+1992,Soviet Union & E. Europe,5,2297,0.22
+1992,Western Europe,16,2297,0.7
+1994,Africa,4,2330,0.17
+1994,East Asia,15,2330,0.64
+1994,International & global,47,2330,2.02
+1994,Latin America,7,2330,0.3
+1994,Middle East & N. Africa,3,2330,0.13
+1994,Oceania,0,2330,0
+1994,South & Southeast Asia,4,2330,0.17
+1994,Soviet Union & E. Europe,5,2330,0.21
+1994,Western Europe,27,2330,1.16
+1996,Africa,4,2341,0.17
+1996,East Asia,14,2341,0.6
+1996,International & global,46,2341,1.96
+1996,Latin America,6,2341,0.26
+1996,Middle East & N. Africa,3,2341,0.13
+1996,Oceania,0,2341,0
+1996,South & Southeast Asia,4,2341,0.17
+1996,Soviet Union & E. Europe,5,2341,0.21
+1996,Western Europe,27,2341,1.15
+1998,Africa,4,2323,0.17
+1998,East Asia,13,2323,0.56
+1998,International & global,52,2323,2.24
+1998,Latin America,5,2323,0.22
+1998,Middle East & N. Africa,3,2323,0.13
+1998,Oceania,0,2323,0
+1998,South & Southeast Asia,2,2323,0.09
+1998,Soviet Union & E. Europe,5,2323,0.22
+1998,Western Europe,27,2323,1.16
